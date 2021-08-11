@@ -24,6 +24,8 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'  // java와 db를 연동시키는 dependency
+	runtimeOnly 'com.h2database:h2'  // db와 연동될 때 실행해주는 client
 }
 
 test {
