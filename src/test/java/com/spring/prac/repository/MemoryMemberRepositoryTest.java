@@ -1,8 +1,6 @@
-package com.hello.repository;
+package com.spring.prac.repository;
 
 import com.spring.prac.domain.Member;
-import com.spring.prac.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
